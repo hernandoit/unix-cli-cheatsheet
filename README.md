@@ -1,23 +1,23 @@
 ### Unix-CLI cheatsheet
 
-'''
 pwd - print working directory; current directory you are in the file system
+```
 pwd
-/Users/<users name>/sei
-'''
-
-'''
+/Users/<users name>/Documents
+``` 
 man - manual for for terminal commands; 
-man rm man ls man git
-'''
-
-'''
+```
+man rm 
+man ls 
+man git
+```
 ls - list all files and directories in current working directory
+```
 Documents Desktop Downloads
-
+```
 ls -a : flag to see all, including hidden
 .gitconfig .gitignore .vscode
-
+```
 ls -l: flag for more detailed information
 total 0
 drwx------@  7 hernandohernandez  staff   224 Jun 29 23:52 Desktop
