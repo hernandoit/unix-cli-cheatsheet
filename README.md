@@ -1,4 +1,4 @@
-### Unix-CLI cheatsheet
+# Unix-CLI cheatsheet
 
 pwd - print working directory; current directory you are in the file system
 ```md
