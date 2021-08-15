@@ -86,7 +86,22 @@ cp : copy;use the -r flag to copy folders
 cp filename [/location/of/new-filename] 
 ```
 
-## Honorable Mentions
+# `Heroku`
+
+## Heroku Command Reference
+A full list of Heroku commands can be accessed by running `heroku --help`; below are some of the more common ones.
+
+|   Commands	       |   Behavior 	|   	
+|---	               |---	        |
+| heroku logs [--tail] |Running just heroku logs will show you the server logs from your deployed                   API. The --tail flag is optional.|   	
+| heroku run ...  	   | Run a program from within Heroku. Examples (heroku run rails console, heroku run rails db:migrate). |   	
+| heroku config	       | Environmental variables in your current Heroku app. |  
+| heroku config:set CLIENT_ORIGIN=https://yourgithubname.github.io| Set CLIENT_ORIGIN |
+| heroku apps:rename newname| Rename Heroku app name (entirely optional).|
+| heroku restart       | Restart the Heroku app, make sure you do this after changing your API.|
+| heroku Open          | Open your Heroku app in default browser.| 	
+
+## `Honorable Mentions`
 
 command to change from zsh to bash terminal
 ```md
