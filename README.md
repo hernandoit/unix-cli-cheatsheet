@@ -1,4 +1,4 @@
-# Unix-CLI cheatsheet
+# `Unix-CLI cheatsheet`
 
 pwd - print working directory; current directory you are in the file system
 ```md
@@ -22,18 +22,18 @@ Documents Desktop Downloads
 ```md
 ls -l: flag for more detailed information
 ```
-total 0
-drwx------@  7 <user directory>  staff   224 Jun 29 23:52 Desktop
-drwx------@ 13 <user directory>  staff   416 Jun 30 01:47 Documents
-drwx------+  6 <user directory>  staff   192 Jun 29 11:40 Downloads
-drwx------@ 74 <user directory>  staff  2368 Jun 15 21:40 Library
-drwx------   5 <user directory>  staff   160 Jun  2 09:05 Movies
-drwx------+  5 <user directory>  staff   160 Jun  2 09:05 Music
-drwx------+  4 <user directory>  staff   128 Apr  2 17:12 Pictures
-drwxr-xr-x+  5 <user directory>  staff   160 May 24 11:07 Public
-drwxr-xr-x   4 <user directory>  staff   128 Jun  2 09:05 VirtualBox VMs
-drwxr-xr-x  10 <user directory>  staff   320 Jun 30 06:29 sei
-```
+- total 0
+- drwx------@  7 <user directory>  staff   224 Jun 29 23:52 Desktop
+- drwx------@ 13 <user directory>  staff   416 Jun 30 01:47 Documents
+- drwx------+  6 <user directory>  staff   192 Jun 29 11:40 Downloads
+- drwx------@ 74 <user directory>  staff  2368 Jun 15 21:40 Library
+- drwx------   5 <user directory>  staff   160 Jun  2 09:05 Movies
+- drwx------+  5 <user directory>  staff   160 Jun  2 09:05 Music
+- drwx------+  4 <user directory>  staff   128 Apr  2 17:12 Pictures
+- drwxr-xr-x+  5 <user directory>  staff   160 May 24 11:07 Public
+- drwxr-xr-x   4 <user directory>  staff   128 Jun  2 09:05 VirtualBox VMs
+- drwxr-xr-x  10 <user directory>  staff   320 Jun 30 06:29 sei
+
 
 cd - change directory
 ```md
@@ -68,14 +68,17 @@ rmdir myDirectory
 rmdir projects 
 rmdir users-working-branch
 ```
-
 touch : creates files in a directory
 ```md
 touch index.html style.css contacts.js
 ```
 rm : removes files from current directory; use the -r flag to delete folders; use -f flag to force remove something
-rm index.html rm -r myDirectory rm -f users-working-branch
-
+```md
+rm index.html 
+rm -r myDirectory 
+rm -f users-working-branch 
+rm -rf this-working-directory
+```
 mv : move files
 ```md
 mv filename [/new/location/new-filename]
