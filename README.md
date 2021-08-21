@@ -15,8 +15,6 @@
 - [git](#git)
 - [heroku](#heroku)
 - [honorable mentions](#honorable-mentions)
-- [](#)
-- [](#)
 
 ## `pwd` 
 ### Description
