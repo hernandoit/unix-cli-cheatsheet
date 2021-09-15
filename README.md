@@ -14,6 +14,7 @@
 - [cp](#cp)
 - [git](#git)
 - [heroku](#heroku)
+- [django](#django)
 - [honorable mentions](#honorable-mentions)
 
 ## `pwd` 
@@ -221,6 +222,38 @@ A full list of Heroku commands can be accessed by running `heroku --help`; below
 | heroku apps:rename newname| Rename Heroku app name (entirely optional).|
 | heroku restart       | Restart the Heroku app, make sure you do this after changing your API.|
 | heroku Open          | Open your Heroku app in default browser.| 	
+
+## `Django`
+### Description
+Django Command Reference
+
+## pipenv
+|  Commands |  Behavior  |
+|--- |--- |
+|`python -m pip install Django` | installs Django package|
+|`pip install Django==<version>` |installs Django package with the specified version ( ex. Django==3.0) |
+|`pipenv shell` | starts the Django development environment |
+## django-admin
+|  Commands |  Behavior  |
+|--- |--- |
+|`django-admin startproject bigredproject .`| Generate a project folder named `bigredproject` in current directory which is specified by the `.` at the end of the folder name|
+|`django-admin startapp api` | Generates an app folder named `api`|
+
+
+## manage .py
+|  Commands |  Behavior  |
+|--- |--- |
+|`python manage.py shell` | Start up the pipenv shell virtual environment |
+|`python manage.py runserver` | Run the Django server |
+
+## migrations
+|  Commands |  Behavior  |
+|--- |--- |
+|`python manage.py showmigrations` | Shows existing migration files |
+|`python manage.py makemigrations` | Generate new migration files |
+|`python manage.py migrate` | migrates the files |
+|`python manage.py migrate <app_name> zero` | "Rollback" or undo ALL migrations |
+|`python manage.py migrate 0002` | "Rollback" or undo specific migrations |
 
 
 ## `Honorable Mentions`
