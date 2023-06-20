@@ -1,12 +1,19 @@
 # `Unix-CLI cheatsheet`
 
 `Table of Contents`
-
+'UNIX'
 - [pwd](#pwd),- [man](#man),- [ls](#ls),- [cd](#cd),- [mkdir](#mkdir)
 - [rmdir](#rmdir),- [touch](#touch),- [rm](#rm),- [mv](#mv),- [cp](#cp)
+
+'REPOSITORY\IES'
 - [git](#git)
+
+'BACKEND HOSTING'
 - [heroku](#heroku)
+
+'FRAMEWORKS'
 - [django](#django)
+  
 - [honorable mentions](#honorable-mentions)
 
 ## `pwd` 
