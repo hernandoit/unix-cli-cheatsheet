@@ -1,4 +1,4 @@
-# `Unix-CLI cheatsheet`
+# Unix-CLI cheatsheet
 
 `Table of Contents`
 
