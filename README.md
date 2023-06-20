@@ -2,16 +2,8 @@
 
 `Table of Contents`
 
-- [pwd](#pwd)
-- [man](#man)
-- [ls](#ls)
-- [cd](#cd)
-- [mkdir](#mkdir)
-- [rmdir](#rmdir)
-- [touch](#touch)
-- [rm](#rm)
-- [mv](#mv)
-- [cp](#cp)
+- [pwd](#pwd),- [man](#man),- [ls](#ls),- [cd](#cd),- [mkdir](#mkdir)
+- [rmdir](#rmdir),- [touch](#touch),- [rm](#rm),- [mv](#mv),- [cp](#cp)
 - [git](#git)
 - [heroku](#heroku)
 - [django](#django)
